@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="370dp"
+        android:layout_height="350dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/TVPrenom"
+            android:layout_width="83dp"
+            android:layout_height="43dp"
+            android:text="@string/Prénom"
+            android:textSize="18dp"
+            tools:text="Prénom :" />
+
+        <EditText
+            android:id="@+id/ETPrenom"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/TVNom"
+            android:layout_width="97dp"
+            android:layout_height="50dp"
+            android:text="@string/Nom"
+            android:textSize="18dp"
+            app:layout_column="0"
+            app:layout_row="1"
+            tools:text="Nom :" />
+
+        <EditText
+            android:id="@+id/ETNom"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/TVMail"
+            android:layout_width="98dp"
+            android:layout_height="50dp"
+            android:text="@string/Mail"
+            android:textSize="18dp"
+            app:layout_column="0"
+            app:layout_row="2"
+            tools:text="Mail :" />
+
+        <EditText
+            android:id="@+id/ETMail"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/TVTel"
+            android:layout_width="98dp"
+            android:layout_height="48dp"
+            android:text="@string/Tel"
+            android:textSize="18dp"
+            app:layout_column="0"
+            app:layout_row="3"
+            tools:text="Tel :" />
+
+        <EditText
+            android:id="@+id/ETTel"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/Inscription"
+            app:layout_column="4"
+            app:layout_row="4"
+            tools:text="S'inscrire" />
+    </android.support.v7.widget.GridLayout>
+</android.support.constraint.ConstraintLayout>

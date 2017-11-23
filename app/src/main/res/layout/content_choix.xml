@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="381dp"
+        android:layout_height="501dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="213dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="175dp"
+            android:maxWidth="500dp"
+            android:scaleType="centerCrop"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/london" />
+
+        <TextView
+            android:id="@+id/Titre"
+            android:layout_width="133dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_column="0"
+            app:layout_row="1"
+            tools:text="Angleterre" />
+
+
+        <TextView
+            android:id="@+id/Capitale"
+            android:layout_width="225dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="5dp"
+            android:text="TextView"
+            android:textColor="#e90008"
+            android:textSize="17sp"
+            app:layout_column="0"
+            app:layout_row="2"
+            tools:text="Capitale : Londres " />
+
+
+        <TextView
+            android:id="@+id/Langue"
+            android:layout_width="305dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="0dp"
+            android:text="TextView"
+            android:textColor="#e90008"
+            android:textSize="17sp"
+            app:layout_column="0"
+            app:layout_row="3"
+            tools:text="Langues: Anglais" />
+
+        <TextView
+            android:id="@+id/Description"
+            android:layout_width="351dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:text="L'Angleterre (en anglais England) est une nation constitutive du Royaume-Uni. Elle est bordée par l'Ecosse au nord et le pays de Galles à l'ouest."
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:layout_column="0"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/Annuler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Annuler"
+            android:layout_marginLeft="150dp"
+            android:textColor="#e90008"
+            app:layout_column="0"
+            app:layout_row="5" />
+
+        <Button
+            android:id="@+id/Confirmer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHOISIR"
+            android:layout_marginLeft="270dp"
+            android:textColor="#e90008"
+            app:layout_column="0"
+            app:layout_row="5" />
+
+    </android.support.v7.widget.GridLayout>
+
+</android.support.constraint.ConstraintLayout>

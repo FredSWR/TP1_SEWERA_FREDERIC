@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TP 1</string>
+    <string name="action_settings">Settings</string>
+    <string name="Prenom">Prenom</string>
+    <string name="Nom">Nom</string>
+    <string name="Mail">Mail</string>
+    <string name="Tel">Tel</string>
+    <string name="Prénom">Prénom</string>
+    <string name="TextPrénom">TextPrénom</string>
+    <string name="TextNom">TextNom</string>
+    <string name="TextMail">TextMail</string>
+    <string name="TextTel">TextTel</string>
+    <string name="Inscription">Inscription</string>
+</resources>
